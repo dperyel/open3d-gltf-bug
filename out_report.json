@@ -1,0 +1,69 @@
+{
+    "uri": "out.glb",
+    "mimeType": "model/gltf-binary",
+    "validatorVersion": "2.0.0-dev.3.5",
+    "validatedAt": "2021-12-04T18:55:02.050Z",
+    "issues": {
+        "numErrors": 3,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+            {
+                "code": "DATA_URI_GLB",
+                "message": "Data URI is used in GLB container.",
+                "severity": 2,
+                "pointer": "/buffers/0/uri"
+            },
+            {
+                "code": "ACCESSOR_TOTAL_OFFSET_ALIGNMENT",
+                "message": "Accessor's total byteOffset 4590 isn't a multiple of componentType length 4.",
+                "severity": 0,
+                "pointer": "/accessors/1"
+            },
+            {
+                "code": "ACCESSOR_TOTAL_OFFSET_ALIGNMENT",
+                "message": "Accessor's total byteOffset 9606 isn't a multiple of componentType length 4.",
+                "severity": 0,
+                "pointer": "/accessors/2"
+            },
+            {
+                "code": "ACCESSOR_MAX_MISMATCH",
+                "message": "Declared maximum value for this component (2294) does not match actual maximum (417).",
+                "severity": 0,
+                "pointer": "/accessors/0/max/0"
+            },
+            {
+                "code": "ACCESSOR_INDEX_TRIANGLE_DEGENERATE",
+                "message": "Indices accessor contains 2 degenerate triangles (out of 765).",
+                "severity": 2,
+                "pointer": "/meshes/0/primitives/0/indices"
+            }
+        ],
+        "truncated": false
+    },
+    "info": {
+        "version": "2.0",
+        "generator": "Open3D",
+        "resources": [
+            {
+                "pointer": "/buffers/0",
+                "mimeType": "application/gltf-buffer",
+                "storage": "data-uri",
+                "byteLength": 14622
+            }
+        ],
+        "animationCount": 0,
+        "materialCount": 0,
+        "hasMorphTargets": false,
+        "hasSkins": false,
+        "hasTextures": false,
+        "hasDefaultScene": true,
+        "drawCallCount": 1,
+        "totalVertexCount": 418,
+        "totalTriangleCount": 765,
+        "maxUVs": 0,
+        "maxInfluences": 0,
+        "maxAttributes": 2
+    }
+}
